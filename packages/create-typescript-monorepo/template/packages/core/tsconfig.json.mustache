@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "paths": {
+      "@kjots/{{name}}-common": [
+        "../common"
+      ],
+      "@kjots/{{name}}-common/*": [
+        "../common/*"
+      ]
+    }
+  },
+  "references": [
+    { "path": "../common" }
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

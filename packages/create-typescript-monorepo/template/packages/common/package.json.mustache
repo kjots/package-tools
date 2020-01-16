@@ -1,0 +1,29 @@
+{
+  "name": "@kjots/{{name}}-common",
+  "version": "0.0.0",
+{{#if description}}
+  "description": "{{description}} - Common",
+{{/if}}
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjots/{{name}}.git"
+  },
+  "keywords": [
+{{#keywords}}
+    "{{keyword}}",
+{{/keywords}}
+    "common"
+  ],
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/{{name}}/issues"
+  },
+  "homepage": "https://github.com/kjots/{{name}}/tree/master/packages/common#readme",
+  "engines": {
+    "node": ">=12.14.1",
+    "npm": ">=6.13.4"
+  }
+}
