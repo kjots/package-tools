@@ -1,0 +1,38 @@
+{
+  "name": "@kjots/package-creator",
+  "version": "0.0.0",
+  "description": "@kjots package creator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "kjots-package-creator": "bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjots/package-tools.git"
+  },
+  "keywords": [
+    "@kjots",
+    "package",
+    "tools",
+    "creator"
+  ],
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/package-tools/issues"
+  },
+  "homepage": "https://github.com/kjots/package-tools/tree/master/packages/package-creator#readme",
+  "engines": {
+    "node": ">=12.14.1",
+    "npm": ">=6.13.4"
+  },
+  "dependencies": {
+    "@kjots/vinyl-fs-observable": "^0.0.17",
+    "decompress": "^4.2.0",
+    "handlebars": "^4.7.2",
+    "lodash": "^4.17.15",
+    "rxjs": "^6.5.4",
+    "yargs": "^15.1.0"
+  }
+}
