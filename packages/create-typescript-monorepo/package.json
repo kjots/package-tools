@@ -1,0 +1,36 @@
+{
+  "name": "@kjots/create-typescript-monorepo",
+  "version": "0.0.0",
+  "description": "Create TypeScript monorepo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "create-typescript-monorepo": "bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjots/package-tools.git"
+  },
+  "keywords": [
+    "@kjots",
+    "package",
+    "tools",
+    "create",
+    "typescript",
+    "monorepo"
+  ],
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/package-tools/issues"
+  },
+  "homepage": "https://github.com/kjots/package-tools/tree/master/packages/create-typescript-monorepo#readme",
+  "engines": {
+    "node": ">=12.14.1",
+    "npm": ">=6.13.4"
+  },
+  "dependencies": {
+    "@kjots/package-creator": "^0.0.0",
+    "yargs": "^15.1.0"
+  }
+}
