@@ -4,7 +4,7 @@ import decompress from 'decompress';
 import handlebars from 'handlebars';
 import path from 'path';
 
-import { camelCase } from 'lodash';
+import { camelCase, upperFirst } from 'lodash';
 
 import { from, MonoTypeOperatorFunction, Observable } from 'rxjs';
 import { concatMap, filter, map, mergeAll, tap } from 'rxjs/operators';
@@ -29,6 +29,7 @@ export const defaults: Partial<Opts> = {
 interface TemplateContext {
   name: string;
   nameCamelCase: string;
+  nameTitleCase: string;
   description?: string;
   keywords: Array<{ keyword: string, first: boolean, last: boolean }>;
 }
@@ -36,11 +37,12 @@ interface TemplateContext {
 export function packageCreator(templateZip: string, opts: Opts) {
   const { name, description } = opts;
   const nameCamelCase = camelCase(name);
+  const nameTitleCase = upperFirst(nameCamelCase);
   const keywords = opts.keywords.map((keyword, i) => ({ keyword, first: i === 0, last: i === opts.keywords.length - 1 }));
 
   readTemplateFiles(templateZip)
     .pipe(
-      applyTemplate({ name, nameCamelCase, description, keywords }),
+      applyTemplate({ name, nameCamelCase, nameTitleCase, description, keywords }),
       dest(opts.output),
       concatMap(file => from(fs.chmod(file.path, file.mode)))
     )
