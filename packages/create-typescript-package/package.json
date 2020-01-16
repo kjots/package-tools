@@ -7,6 +7,9 @@
   "bin": {
     "create-typescript-package": "bin/app.js"
   },
+  "scripts": {
+    "prepare": "cd template && rimraf ../template.zip && zip -r ../template.zip ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kjots/package-tools.git"
