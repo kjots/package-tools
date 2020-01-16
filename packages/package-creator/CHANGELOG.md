@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/kjots/package-tools/compare/v0.1.0...v0.1.1) (2020-01-16)
+
+
+### Bug Fixes
+
+* **package-creator:** add missing title-case name to template context ([174346b](https://github.com/kjots/package-tools/commit/174346b841bd6d78f8a90b07c5eecaadab737d5e))
+
+
+
+
+
 # 0.1.0 (2020-01-16)
 
 
