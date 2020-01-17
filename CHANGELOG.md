@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/kjots/package-tools/compare/v0.3.0...v0.4.0) (2020-01-17)
+
+
+### Features
+
+* **create-typescript-monorepo:** update template to use `@kjots/tslint-rules` version 1.5.0 ([485f641](https://github.com/kjots/package-tools/commit/485f64114ebc8345a06b4cbdc7b9c663c6815314))
+* **create-typescript-package:** update template to use `@kjots/tslint-rules` version 1.5.0 ([cbb3f07](https://github.com/kjots/package-tools/commit/cbb3f075323f9cbce7b50bfac4585a8e9cf0e8dd))
+
+
+
+
+
 # [0.3.0](https://github.com/kjots/package-tools/compare/v0.2.0...v0.3.0) (2020-01-17)
 
 

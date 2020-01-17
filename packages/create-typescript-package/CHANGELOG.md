@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/kjots/package-tools/compare/v0.3.0...v0.4.0) (2020-01-17)
+
+
+### Features
+
+* **create-typescript-package:** update template to use `@kjots/tslint-rules` version 1.5.0 ([cbb3f07](https://github.com/kjots/package-tools/commit/cbb3f075323f9cbce7b50bfac4585a8e9cf0e8dd))
+
+
+
+
+
 # [0.3.0](https://github.com/kjots/package-tools/compare/v0.2.0...v0.3.0) (2020-01-17)
 
 **Note:** Version bump only for package @kjots/create-typescript-package
