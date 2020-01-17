@@ -16,10 +16,9 @@
   },
   "keywords": [
     "@kjots",
-    "package",
-    "tools",
     "create",
-    "typescript"
+    "typescript",
+    "package"
   ],
   "author": "Karl Juri Ots <kjots@kjots.org>",
   "license": "Apache-2.0",
