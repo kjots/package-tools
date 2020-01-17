@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/kjots/package-tools/compare/v0.4.0...v0.5.0) (2020-01-17)
+
+
+### Features
+
+* **package-creator:** update `packageCreator()` to pass all provided options to template ([f503bff](https://github.com/kjots/package-tools/commit/f503bff6eb34f05308c307dc1902a8b6202bb1eb))
+
+
+
+
+
 # [0.4.0](https://github.com/kjots/package-tools/compare/v0.3.0...v0.4.0) (2020-01-17)
 
 **Note:** Version bump only for package @kjots/package-creator
