@@ -13,11 +13,18 @@ import File = require('vinyl');
 
 import { dest } from '@kjots/vinyl-fs-observable';
 
+export type TemplateContextValue = undefined | null | boolean | number | string | Array<TemplateContextValue> | { [key: string]: TemplateContextValue };
+
+export interface TemplateContext {
+  [key: string]: TemplateContextValue;
+}
+
 export interface Opts {
   output: string;
   name: string;
-  description: string;
+  description?: string;
   keywords: Array<string>;
+  templateContext?: TemplateContext;
 }
 
 export const defaults: Partial<Opts> = {
@@ -26,23 +33,16 @@ export const defaults: Partial<Opts> = {
   keywords: []
 };
 
-interface TemplateContext {
-  name: string;
-  nameCamelCase: string;
-  nameTitleCase: string;
-  description?: string;
-  keywords: Array<{ keyword: string, first: boolean, last: boolean }>;
-}
-
 export function packageCreator(templateZip: string, opts: Opts) {
   const { name, description } = opts;
   const nameCamelCase = camelCase(name);
   const nameTitleCase = upperFirst(nameCamelCase);
   const keywords = opts.keywords.map((keyword, i) => ({ keyword, first: i === 0, last: i === opts.keywords.length - 1 }));
+  const templateContext = opts.templateContext || {};
 
   readTemplateFiles(templateZip)
     .pipe(
-      applyTemplate({ name, nameCamelCase, nameTitleCase, description, keywords }),
+      applyTemplate({ name, nameCamelCase, nameTitleCase, description, keywords, ...templateContext }),
       dest(opts.output),
       concatMap(file => from(fs.chmod(file.path, file.mode)))
     )

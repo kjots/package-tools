@@ -9,5 +9,8 @@ export interface Opts extends PackageCreatorOpts {
 }
 
 export function createTypescriptMonorepoPackage(opts: Opts) {
-  packageCreator(templateZip, opts);
+  const { monorepo, ...packageCreatorOpts } = opts;
+  const templateContext = { monorepo };
+
+  packageCreator(templateZip, { ...packageCreatorOpts, templateContext });
 }
