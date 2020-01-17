@@ -35,13 +35,14 @@ interface TemplateContext {
 }
 
 export function packageCreator(templateZip: string, opts: Opts) {
-  const nameCamelCase = camelCase(opts.name);
+  const { name, description } = opts;
+  const nameCamelCase = camelCase(name);
   const nameTitleCase = upperFirst(nameCamelCase);
   const keywords = opts.keywords.map((keyword, i) => ({ keyword, first: i === 0, last: i === opts.keywords.length - 1 }));
 
   readTemplateFiles(templateZip)
     .pipe(
-      applyTemplate({ ...opts, nameCamelCase, nameTitleCase, keywords }),
+      applyTemplate({ name, nameCamelCase, nameTitleCase, description, keywords }),
       dest(opts.output),
       concatMap(file => from(fs.chmod(file.path, file.mode)))
     )
