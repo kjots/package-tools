@@ -1,8 +1,6 @@
 import yargs from 'yargs';
 
-import { defaults } from '@kjots/package-creator';
-
-import { createTypescriptMonorepoPackage } from '..';
+import { createTypescriptMonorepoPackage, defaults } from '..';
 
 const argv = yargs
   .usage('Usage: $0 [options]')
@@ -28,6 +26,12 @@ const argv = yargs
       nargs: 1,
       demandOption: true
     },
+    references: {
+      alias: 'r',
+      describe: 'Package references',
+      array: true,
+      default: defaults.references
+    },
     description: {
       alias: 'd',
       describe: 'Package description',
@@ -47,5 +51,6 @@ createTypescriptMonorepoPackage({
   name: argv.name as string,
   monorepo: argv.monorepo as string,
   description: argv.description as string,
-  keywords: argv.keywords as Array<string>
+  keywords: argv.keywords as Array<string>,
+  references: argv.references as Array<string>
 });
