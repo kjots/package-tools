@@ -11,4 +11,5 @@
 /packages/*/tsconfig.tsbuildinfo
 
 /packages/create-typescript-monorepo/template.zip
+/packages/create-typescript-monorepo-package/template.zip
 /packages/create-typescript-package/template.zip
