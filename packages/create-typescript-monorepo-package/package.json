@@ -1,6 +1,6 @@
 {
   "name": "@kjots/create-typescript-monorepo-package",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Create package for TypeScript monorepo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,7 +32,7 @@
     "npm": ">=6.13.4"
   },
   "dependencies": {
-    "@kjots/package-creator": "^0.6.0",
+    "@kjots/package-creator": "^0.7.0",
     "yargs": "^15.1.0"
   }
 }

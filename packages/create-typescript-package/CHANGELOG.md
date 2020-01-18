@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/kjots/package-tools/compare/v0.6.0...v0.7.0) (2020-01-18)
+
+
+### Features
+
+* **create-typescript-package:** update to get app options from `bin/args` module of `package-creator` package ([9e039c4](https://github.com/kjots/package-tools/commit/9e039c4d0692a44382442bfccf068d8f0041c334))
+
+
+
+
+
 # [0.6.0](https://github.com/kjots/package-tools/compare/v0.5.0...v0.6.0) (2020-01-17)
 
 **Note:** Version bump only for package @kjots/create-typescript-package

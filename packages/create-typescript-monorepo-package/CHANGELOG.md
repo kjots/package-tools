@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/kjots/package-tools/compare/v0.6.0...v0.7.0) (2020-01-18)
+
+
+### Features
+
+* **create-typescript-monorepo-package:** remove app option defaults ([ee15e16](https://github.com/kjots/package-tools/commit/ee15e16317e6c547904558b76a368d36a3fd5a28))
+* **create-typescript-monorepo-package:** update to get app options from `bin/args` module of `package-creator` package ([079c3bc](https://github.com/kjots/package-tools/commit/079c3bc69759a69a2adbb91c7890c3f535488d3b))
+
+
+
+
+
 # [0.6.0](https://github.com/kjots/package-tools/compare/v0.5.0...v0.6.0) (2020-01-17)
 
 
