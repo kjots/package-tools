@@ -2,7 +2,7 @@ import yargs from 'yargs';
 
 import { getOpts, options } from '@kjots/package-creator/dist/bin/args';
 
-import { createTypescriptMonorepoPackage, defaults } from '..';
+import { createTypescriptMonorepoPackage } from '..';
 
 const argv = yargs
   .usage('Usage: $0 [options]')
@@ -18,7 +18,7 @@ const argv = yargs
       alias: 'r',
       describe: 'Package references',
       array: true,
-      default: defaults.references
+      default: []
     }
   })
   .argv;

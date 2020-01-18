@@ -1,6 +1,6 @@
 import { resolve } from 'path';
 
-import { defaults as packageCreatorDefaults, Opts as PackageCreatorOpts, packageCreator } from '@kjots/package-creator';
+import { Opts as PackageCreatorOpts, packageCreator } from '@kjots/package-creator';
 
 const templateZip = resolve(__dirname, '../template.zip');
 
@@ -8,11 +8,6 @@ export interface Opts extends PackageCreatorOpts {
   monorepo: string;
   references: Array<string>;
 }
-
-export const defaults: Partial<Opts> = {
-  ...packageCreatorDefaults,
-  references: []
-};
 
 export function createTypescriptMonorepoPackage(opts: Opts) {
   const { monorepo, ...packageCreatorOpts } = opts;
