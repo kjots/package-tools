@@ -1,4 +1,4 @@
-import { defaults } from '..';
+import { basename } from 'path';
 
 import { Opts } from '..';
 
@@ -10,13 +10,13 @@ export const options = {
     alias: 'o',
     describe: 'Package output directory',
     nargs: 1,
-    default: defaults.output
+    default: '.'
   },
   name: {
     alias: 'n',
     describe: 'Package name',
     nargs: 1,
-    default: defaults.name
+    default: basename(process.cwd())
   },
   description: {
     alias: 'd',
@@ -27,7 +27,7 @@ export const options = {
     alias: 'k',
     describe: 'Package keywords',
     array: true,
-    default: defaults.keywords
+    default: []
   }
 };
 

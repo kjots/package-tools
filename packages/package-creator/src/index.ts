@@ -27,12 +27,6 @@ export interface Opts {
   templateContext?: TemplateContext;
 }
 
-export const defaults: Partial<Opts> = {
-  output: '.',
-  name: path.basename(process.cwd()),
-  keywords: []
-};
-
 export function packageCreator(templateZip: string, opts: Opts) {
   const { name, description } = opts;
   const nameCamelCase = camelCase(name);
