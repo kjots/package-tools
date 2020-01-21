@@ -2,8 +2,8 @@
   "name": "@kjots/create-typescript-monorepo",
   "version": "0.8.0",
   "description": "Create TypeScript monorepo",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "bin": {
     "create-typescript-monorepo": "bin/app.js"
   },
