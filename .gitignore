@@ -8,6 +8,9 @@
 
 /packages/*/dist/
 /packages/*/node_modules/
+/packages/*/**/*.d.ts
+/packages/*/**/*.js
+/packages/*/**/*.js.map
 /packages/*/tsconfig.tsbuildinfo
 
 /packages/create-typescript-monorepo/template.zip
