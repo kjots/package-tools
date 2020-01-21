@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/kjots/package-tools/compare/v0.7.0...v0.8.0) (2020-01-21)
+
+
+### Features
+
+* **package-creator:** update to use `@kjots/vinyl-fs-observable` version 0.2.0 ([486e398](https://github.com/kjots/package-tools/commit/486e398e577a3934be4eec61b65dd73207bb329a))
+
+
+
+
+
 # [0.7.0](https://github.com/kjots/package-tools/compare/v0.6.0...v0.7.0) (2020-01-18)
 
 
