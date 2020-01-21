@@ -3,8 +3,8 @@
   "compilerOptions": {
     "composite": true,
     "baseUrl": "./",
-    "rootDir": "./src",
-    "outDir": "./dist",
+    "rootDir": ".",
+    "outDir": ".",
     "paths": {
       "@kjots/package-creator": [
         "../package-creator"
@@ -18,6 +18,9 @@
     { "path": "../package-creator" }
   ],
   "include": [
-    "src/**/*"
+    "**/*.ts"
+  ],
+  "exclude": [
+    "**/*.d.ts"
   ]
 }
