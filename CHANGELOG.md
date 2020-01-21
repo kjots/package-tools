@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.1](https://github.com/kjots/package-tools/compare/v0.9.0...v0.9.1) (2020-01-21)
+
+
+### Bug Fixes
+
+* **create-typescript-monorepo:** update package lock ([757ad11](https://github.com/kjots/package-tools/commit/757ad1101572f80c6835c9d601cc96ce0612ebdb))
+
+
+
+
+
 # [0.9.0](https://github.com/kjots/package-tools/compare/v0.8.0...v0.9.0) (2020-01-21)
 
 
