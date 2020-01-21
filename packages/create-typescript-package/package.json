@@ -1,6 +1,6 @@
 {
   "name": "@kjots/create-typescript-package",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Create TypeScript package",
   "main": "index.js",
   "types": "index.d.ts",
@@ -31,7 +31,7 @@
     "npm": ">=6.13.4"
   },
   "dependencies": {
-    "@kjots/package-creator": "^0.8.0",
+    "@kjots/package-creator": "^0.9.0",
     "yargs": "^15.1.0"
   }
 }

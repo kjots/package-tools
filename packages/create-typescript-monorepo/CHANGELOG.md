@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/kjots/package-tools/compare/v0.8.0...v0.9.0) (2020-01-21)
+
+
+### Features
+
+* **create-typescript-monorepo:** refactor template TypeScript config to compile from and into package directory ([d7cbb59](https://github.com/kjots/package-tools/commit/d7cbb59b5d470fa83ac9a6e0a5941ca8c3f0213a))
+* **create-typescript-monorepo:** update dependency versions in template ([4223a5a](https://github.com/kjots/package-tools/commit/4223a5a1626ed0c2c175bf36c48a75e6fb1afe2d))
+
+
+
+
+
 # [0.8.0](https://github.com/kjots/package-tools/compare/v0.7.0...v0.8.0) (2020-01-21)
 
 **Note:** Version bump only for package @kjots/create-typescript-monorepo
