@@ -24,12 +24,15 @@
   "engines": {
     "node": ">=12.14.1",
     "npm": ">=6.13.4"
-  }{{#if references}},{{/if}}
+  },
 {{#if references}}
   "dependencies": {
 {{#references}}
     "@kjots/{{package}}": "^0.0.0"{{#unless last}},{{/unless}}
 {{/references}}
-  }
+  },
 {{/if}}
+  "publishConfig": {
+    "access": "public"
+  }
 }
