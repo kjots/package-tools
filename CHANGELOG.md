@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/kjots/package-tools/compare/v0.9.1...v0.10.0) (2020-01-22)
+
+
+### Features
+
+* **create-typescript-monorepo:** make package public ([ad9a76e](https://github.com/kjots/package-tools/commit/ad9a76e03c058bc7acfea90f1b9a5fb569b91a6f))
+* **create-typescript-monorepo:** make package public in template ([cdfa1c4](https://github.com/kjots/package-tools/commit/cdfa1c450ebed2a6fc2ac2b8d84424f268de6ad5))
+* **create-typescript-monorepo:** update dependency versions in template ([13650a3](https://github.com/kjots/package-tools/commit/13650a3bd4285403ca2adc11c0cc6b89a4b23dad))
+* **create-typescript-monorepo-package:** make package public ([63d3139](https://github.com/kjots/package-tools/commit/63d3139ace4531aad760cba8d66bb4731c3bf218))
+* **create-typescript-monorepo-package:** make package public in template ([6a5646a](https://github.com/kjots/package-tools/commit/6a5646a432086fe6476c5036fe664a047f177ebe))
+* **create-typescript-package:** make package public ([10e529a](https://github.com/kjots/package-tools/commit/10e529a4f749cceb792db8157dc216577ab5e856))
+* **create-typescript-package:** make package public in template ([02bb365](https://github.com/kjots/package-tools/commit/02bb36508aacb65edc84a5b16ec328a633d43378))
+* **create-typescript-package:** update dependency versions in template ([2bf4aa3](https://github.com/kjots/package-tools/commit/2bf4aa36645dc1c08f06493b64f1c26e55d6c827))
+* **package-creator:** make package public ([d82122c](https://github.com/kjots/package-tools/commit/d82122cf55ef0c32528bf56e8871e037391d4ea2))
+
+
+
+
+
 ## [0.9.1](https://github.com/kjots/package-tools/compare/v0.9.0...v0.9.1) (2020-01-21)
 
 

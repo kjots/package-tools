@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/kjots/package-tools/compare/v0.9.1...v0.10.0) (2020-01-22)
+
+
+### Features
+
+* **package-creator:** make package public ([d82122c](https://github.com/kjots/package-tools/commit/d82122cf55ef0c32528bf56e8871e037391d4ea2))
+
+
+
+
+
 # [0.9.0](https://github.com/kjots/package-tools/compare/v0.8.0...v0.9.0) (2020-01-21)
 
 
