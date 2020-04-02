@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/kjots/package-tools/compare/v0.12.0...v0.13.0) (2020-04-02)
+
+
+### Features
+
+* **create-typescript-monorepo:** removed package lock from template ([59577d6](https://github.com/kjots/package-tools/commit/59577d6fb7b803507d7a7b46c44e260940a376fb))
+* **create-typescript-monorepo:** update dependency versions ([e74319c](https://github.com/kjots/package-tools/commit/e74319cfe8322c609fc47034c5b6965e2df2fa18))
+* **create-typescript-monorepo:** update dependency versions in template ([eb5af66](https://github.com/kjots/package-tools/commit/eb5af662896ca1d21d85c6871f2d816f6d6bf1b4))
+* **create-typescript-monorepo:** update Node LTS version in template ([912b968](https://github.com/kjots/package-tools/commit/912b9683a909276e5735671745a9001f85b39df3))
+* **create-typescript-monorepo-package:** update dependency versions ([21a5cdf](https://github.com/kjots/package-tools/commit/21a5cdf5c79a327f64c1b03b0ee40c311c810150))
+* **create-typescript-monorepo-package:** update Node LTS version in template ([79d61cd](https://github.com/kjots/package-tools/commit/79d61cdbe0fcd3a27872e8d8f4708129baab53ae))
+* **create-typescript-package:** removed package lock from template ([d1e545d](https://github.com/kjots/package-tools/commit/d1e545d6ba317a3ceb9e58e5ff0a70808ef1b782))
+* **create-typescript-package:** update dependency versions ([202a1b1](https://github.com/kjots/package-tools/commit/202a1b13e236f4727d64db18a2bc9ac48264193f))
+* **create-typescript-package:** update dependency versions in template ([ba196d6](https://github.com/kjots/package-tools/commit/ba196d61b93df74776fa20ad5a6c34c85460e9ee))
+* **create-typescript-package:** update Node LTS version in template ([5bf7e2b](https://github.com/kjots/package-tools/commit/5bf7e2b373c9893059294393b09b909816e1b6be))
+* **package-creator:** update dependency versions ([c9a284e](https://github.com/kjots/package-tools/commit/c9a284e216ec7e19457e216491b812ee12b5ef82))
+
+
+
+
+
 # [0.12.0](https://github.com/kjots/package-tools/compare/v0.11.0...v0.12.0) (2020-02-12)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/kjots/package-tools/compare/v0.12.0...v0.13.0) (2020-04-02)
+
+
+### Features
+
+* **package-creator:** update dependency versions ([c9a284e](https://github.com/kjots/package-tools/commit/c9a284e216ec7e19457e216491b812ee12b5ef82))
+
+
+
+
+
 # [0.12.0](https://github.com/kjots/package-tools/compare/v0.11.0...v0.12.0) (2020-02-12)
 
 **Note:** Version bump only for package @kjots/package-creator

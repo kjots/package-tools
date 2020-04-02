@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/kjots/package-tools/compare/v0.12.0...v0.13.0) (2020-04-02)
+
+
+### Features
+
+* **create-typescript-monorepo-package:** update dependency versions ([21a5cdf](https://github.com/kjots/package-tools/commit/21a5cdf5c79a327f64c1b03b0ee40c311c810150))
+* **create-typescript-monorepo-package:** update Node LTS version in template ([79d61cd](https://github.com/kjots/package-tools/commit/79d61cdbe0fcd3a27872e8d8f4708129baab53ae))
+
+
+
+
+
 # [0.12.0](https://github.com/kjots/package-tools/compare/v0.11.0...v0.12.0) (2020-02-12)
 
 
