@@ -40,10 +40,6 @@
     "url": "https://github.com/kjots/package-tools/issues"
   },
   "homepage": "https://github.com/kjots/package-tools#readme",
-  "engines": {
-    "node": ">=12.16.1",
-    "npm": ">=6.13.4"
-  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",

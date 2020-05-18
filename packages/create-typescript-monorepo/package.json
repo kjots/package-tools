@@ -26,10 +26,6 @@
     "url": "https://github.com/kjots/package-tools/issues"
   },
   "homepage": "https://github.com/kjots/package-tools/tree/master/packages/create-typescript-monorepo#readme",
-  "engines": {
-    "node": ">=12.16.1",
-    "npm": ">=6.13.4"
-  },
   "dependencies": {
     "@kjots/package-creator": "^0.13.0",
     "yargs": "^15.3.1"
