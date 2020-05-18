@@ -1,6 +1,6 @@
 {
   "name": "@kjots/create-typescript-package",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "description": "Create TypeScript package",
   "main": "index.js",
   "types": "index.d.ts",
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/kjots/package-tools/tree/master/packages/create-typescript-package#readme",
   "dependencies": {
-    "@kjots/package-creator": "^0.13.0",
+    "@kjots/package-creator": "^0.14.0",
     "yargs": "^15.3.1"
   },
   "publishConfig": {

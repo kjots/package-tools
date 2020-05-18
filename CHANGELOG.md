@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/kjots/package-tools/compare/v0.13.0...v0.14.0) (2020-05-18)
+
+
+### Features
+
+* **create-typescript-monorepo:** update dependency versions in template ([0fdd728](https://github.com/kjots/package-tools/commit/0fdd72837d96fc7f9efaa6fea2ab4f691fdb82a9))
+* **create-typescript-monorepo:** update to use latest Node LTS version via LTS codename in template ([bf1e76d](https://github.com/kjots/package-tools/commit/bf1e76d65109af0f39d4c89cfb73a9b90304e009))
+* **create-typescript-monorepo-package:** update to use latest Node LTS version via LTS codename in template ([b42d177](https://github.com/kjots/package-tools/commit/b42d177cb5d785659f928cc37c1dab1ad77a6cfc))
+* **create-typescript-package:** update dependency versions in template ([a7e1499](https://github.com/kjots/package-tools/commit/a7e14996a8793d72cebe2b033ba3800cc3e37be3))
+* **create-typescript-package:** update to use latest Node LTS version via LTS codename in template ([7512344](https://github.com/kjots/package-tools/commit/75123448a9c8596c772761c46deaccd67beeb5a1))
+* **package-creator:** update dependency versions ([0f6867f](https://github.com/kjots/package-tools/commit/0f6867ffe403b2a8c10c7ea0a9523b700e32c773))
+
+
+
+
+
 # [0.13.0](https://github.com/kjots/package-tools/compare/v0.12.0...v0.13.0) (2020-04-02)
 
 
