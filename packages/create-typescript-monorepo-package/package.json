@@ -1,6 +1,6 @@
 {
   "name": "@kjots/create-typescript-monorepo-package",
-  "version": "0.14.0",
+  "version": "1.0.0",
   "description": "Create package for TypeScript monorepo",
   "main": "index.js",
   "types": "index.d.ts",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/kjots/package-tools/tree/master/packages/create-typescript-monorepo-package#readme",
   "dependencies": {
-    "@kjots/package-creator": "^0.14.0",
+    "@kjots/package-creator": "^1.0.0",
     "yargs": "^15.4.0"
   },
   "devDependencies": {
