@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/kjots/package-tools/tree/master/packages/package-creator#readme",
   "dependencies": {
-    "@kjots/vinyl-fs-observable": "^0.3.4",
+    "@kjots/vinyl-fs-observable": "^1.0.0",
     "decompress": "^4.2.1",
     "handlebars": "^4.7.6",
     "lodash": "^4.17.15",
-    "rxjs": "^6.5.5",
-    "yargs": "^15.3.1"
+    "rxjs": "^6.6.0",
+    "yargs": "^15.4.0"
   },
   "publishConfig": {
     "access": "public"
