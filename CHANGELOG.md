@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/kjots/package-tools/compare/v1.0.0...v1.1.0) (2020-07-08)
+
+
+### Bug Fixes
+
+* **create-typescript-package:** add missing `*.iml` entry to `.gitignore` in template ([992d9cb](https://github.com/kjots/package-tools/commit/992d9cbe4ad33c4ec8c60cea2f0446916f478467))
+
+
+### Features
+
+* **create-typescript-monorepo:** add config for TypeScript files to `.editorconfig` in template ([19ecb14](https://github.com/kjots/package-tools/commit/19ecb149067ad91d53134bcde3f05668e496727c))
+* **create-typescript-package:** add config for TypeScript files to `.editorconfig` in template ([c365f15](https://github.com/kjots/package-tools/commit/c365f15ad53d8f66bd56831c7823c1617fd1d1e2))
+
+
+
+
+
 # [1.0.0](https://github.com/kjots/package-tools/compare/v0.14.0...v1.0.0) (2020-07-08)
 
 

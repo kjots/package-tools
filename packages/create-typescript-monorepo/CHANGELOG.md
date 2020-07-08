@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/kjots/package-tools/compare/v1.0.0...v1.1.0) (2020-07-08)
+
+
+### Features
+
+* **create-typescript-monorepo:** add config for TypeScript files to `.editorconfig` in template ([19ecb14](https://github.com/kjots/package-tools/commit/19ecb149067ad91d53134bcde3f05668e496727c))
+
+
+
+
+
 # [1.0.0](https://github.com/kjots/package-tools/compare/v0.14.0...v1.0.0) (2020-07-08)
 
 
