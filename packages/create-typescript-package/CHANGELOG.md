@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/kjots/package-tools/compare/v1.1.0...v1.1.1) (2020-07-13)
+
+
+### Bug Fixes
+
+* **create-typescript-package:** update to not include `.iml` files in published package ([851cb15](https://github.com/kjots/package-tools/commit/851cb15781d5ebcffbbf6cba9e68f4612e9488a3))
+
+
+
+
+
 # [1.1.0](https://github.com/kjots/package-tools/compare/v1.0.0...v1.1.0) (2020-07-08)
 
 

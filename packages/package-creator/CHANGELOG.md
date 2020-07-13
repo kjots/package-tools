@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/kjots/package-tools/compare/v1.1.0...v1.1.1) (2020-07-13)
+
+
+### Bug Fixes
+
+* **package-creator:** update to not include `.iml` files in published package ([f119153](https://github.com/kjots/package-tools/commit/f11915390b4627051dc7b809586ad2fb47a17545))
+
+
+
+
+
 # [1.0.0](https://github.com/kjots/package-tools/compare/v0.14.0...v1.0.0) (2020-07-08)
 
 **Note:** Version bump only for package @kjots/package-creator

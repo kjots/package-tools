@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/kjots/package-tools/compare/v1.1.0...v1.1.1) (2020-07-13)
+
+
+### Bug Fixes
+
+* **create-typescript-monorepo-package:** update to not include `.iml` files in published package ([4b57431](https://github.com/kjots/package-tools/commit/4b574318565afda3eae6465efd2411cfd8bb73eb))
+* **create-typescript-monorepo-package:** update to not include `.iml` files in published package in template ([338dd83](https://github.com/kjots/package-tools/commit/338dd8306c56b7c52910c0a0c569526361cc7771))
+
+
+
+
+
 # [1.0.0](https://github.com/kjots/package-tools/compare/v0.14.0...v1.0.0) (2020-07-08)
 
 **Note:** Version bump only for package @kjots/create-typescript-monorepo-package
